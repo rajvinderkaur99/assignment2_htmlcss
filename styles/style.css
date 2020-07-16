@@ -1,0 +1,32 @@
+@keyframes water{
+    0% {background-color:red; left:0px; top:0px;}
+  25%  {background-color:yellow; left:200px; top:0px;}
+  50%  {background-color:blue; left:200px; top:200px;}
+  75%  {background-color:green; left:0px; top:200px;}
+  100% {background-color:red; left:0px; top:0px;}
+
+}
+#grad{
+    height: 400px;
+    width: 400px;
+    background: radial-gradient(red,green,blue);
+    margin-top: 50px;
+    margin-left: 400px;
+    margin-top: 200px;
+}
+.myclass{
+    position: absolute;
+    padding-bottom: 40px;
+    left: 500px;
+    bottom: 500px;
+
+}
+#ani1{
+    position: relative;
+    height: 200px;
+    width: 200px;
+    background-color: green;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-name: water;
+}
